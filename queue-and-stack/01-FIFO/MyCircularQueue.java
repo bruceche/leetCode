@@ -56,7 +56,7 @@ class MyCircularQueue {
     /** Delete an element from the circular queue. Return true if the operation is successful. */
     public boolean deQueue() {
         
-        if (this.isEmpty()) {
+        if (isEmpty()) {
             
             return false;
             
@@ -84,7 +84,7 @@ class MyCircularQueue {
     
     /** Get the front item from the queue. */
     public int Front() {
-        if (myQueue.isEmpty()) {
+        if (isEmpty()) {
             return -1;
         }
         return myQueue.get(head);
