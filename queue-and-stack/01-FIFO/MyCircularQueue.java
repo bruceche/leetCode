@@ -27,6 +27,7 @@ class MyCircularQueue {
                 
                 head = 0;
                 tail = 0;
+                myQueue.clear();
                 
             } else {
                 
